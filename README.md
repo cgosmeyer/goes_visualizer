@@ -53,3 +53,7 @@ python mvisualize.py --h
 ```
 
 ## Examples
+
+![Visualizer with basemap](https://github.com/cgosmeyer/goes_visualizer/blob/main/images/g16_band07_2021200_basemap.png?raw=true)
+
+![Visualizer with GOES-16 image](https://user-images.githubusercontent.com/5558042/139359266-7da860ad-3ade-4a48-aa45-a93b15c50ac6.png)
