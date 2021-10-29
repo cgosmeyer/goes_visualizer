@@ -1,4 +1,4 @@
-# goes_visualization
+# goes_visualizer
 
 ## About
 
@@ -54,6 +54,16 @@ python mvisualize.py --h
 
 ## Examples
 
+The geolocation errors for each ground control chip scanned at time 18:10 on day 200 of 2021.
+
+First using a basemap:
+
+`python visualize.py --i OR_ABI-L1b-RadF-M6C07_G16_s20212000510231_e20212000519550_c20212000519591.nc --m G16_NAV_measurements_2021_200.P20210723140726.csv.gz --s '1810-07192021' `
+
 ![Visualizer with basemap](https://github.com/cgosmeyer/goes_visualizer/blob/main/images/g16_band07_2021200_basemap.png?raw=true)
+
+Second using the day 200 GOES-16 image in band 07:
+
+`python visualize.py --i OR_ABI-L1b-RadF-M6C07_G16_s20212000510231_e20212000519550_c20212000519591.nc --m G16_NAV_measurements_2021_200.P20210723140726.csv.gz --s '1810-07192021' --vmax 0.0001 --overlay`
 
 ![Visualizer with GOES-16 image](https://user-images.githubusercontent.com/5558042/139359266-7da860ad-3ade-4a48-aa45-a93b15c50ac6.png)
