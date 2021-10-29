@@ -66,4 +66,4 @@ Second using the 18:00 day 200 GOES-16 image in band 07:
 
 `python visualize.py --i OR_ABI-L1b-RadF-M6C07_G16_s20212001810229_e20212001819548_c20212001819594.nc --m G16_NAV_measurements_2021_200.P20210723140726.csv.gz --s '1810-07192021' --vmax 0.0001 --overlay`
 
-![Visualizer with GOES-16 image](https://user-images.githubusercontent.com/5558042/139359266-7da860ad-3ade-4a48-aa45-a93b15c50ac6.png)
+![Visualizer with GOES-16 image](https://github.com/cgosmeyer/goes_visualizer/blob/main/images/g16_band07_2021200_image.png?raw=true)
