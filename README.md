@@ -1,4 +1,4 @@
-# goes_visualizer
+# GOES Visualizer
 
 ## About
 
@@ -6,7 +6,7 @@ GOES-R is a series of NASA/NOAA geostationary satellites that image Earth's weat
 
 ### visualize.py: Visualize
 
-Visualization tool to display the performance of each chip in a single GOES-R image assessment.
+Visualization tool to display the performance of each "true location" chip in a single GOES-R assessment image.
 
 1. Extracts each chip from selected scene from the "measurement" file and geolocates them by matching to a chip from either of the chip database files "nav_chipdb.csv" or "other_chipdb.csv".
 2. Displays the selected GOES image.
